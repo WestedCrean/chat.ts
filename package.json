@@ -1,0 +1,31 @@
+{
+  "name": "wektor-chat",
+  "version": "1.0.0",
+  "description": "A chat app built using React and websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "chat",
+    "app",
+    "websockets",
+    "react"
+  ],
+  "author": "Wiktor Flis",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "ws": "^7.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.10.0"
+  }
+}
